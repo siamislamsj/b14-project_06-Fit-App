@@ -1,23 +1,11 @@
 # FitLog — Workout Library
 
-FitLog is a responsive workout library and daily training log. Browse the lifts, check form guidance, save exercises for later, and build a plan of up to five movements for today.
-
-## Technologies
-
-- Next.js App Router
-- React
-- Tailwind CSS and daisyUI components (included in `app/globals.css`)
-- Lucide React icons
-- FitLog REST API
-- Browser localStorage
+FitLog is a responsive workout library and daily training planner. Users can explore exercises, view instructions, create a plan for today, and save workouts for later. Workout information is loaded from the FitLog API.
 
 ## Features
 
-1. Loads all 12 exercises and their images, tags, equipment, and stats from the FitLog API.
-2. Responsive workout library with search and sorting by duration, calories, or rating.
-3. Individual workout details with key specifications and step-by-step instructions.
-4. Today's Plan and Saved lists with live counters, metrics, and a five-exercise daily cap.
-5. Add, save, mark done, and remove actions with toast notifications.
-6. Remembers your plan and saved lifts after a page reload.
-7. Custom not-found page and loading states for the workout data.
-
+1. Workout Library: Browse exercises with images, muscle groups, equipment, duration, calories, and ratings.
+2. Workout Details: View each exercise’s description, specifications, and step-by-step instructions.
+3. Today's Plan: Add up to five workouts and see the total exercises, minutes, and calories update.
+4. Saved Workouts: Save exercises for later and access them from the My Plan page.
+5. Workout Management: Sort workouts, mark planned exercises as done, and remove items from the plan or saved list.
